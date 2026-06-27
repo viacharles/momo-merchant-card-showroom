@@ -13,7 +13,7 @@
 
 .hero,
 .section-stack {
-  max-width: 1320px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -81,11 +81,11 @@ h1 {
 }
 
 .section-card {
-  padding: var(--space-7);
+  padding: var(--space-6);
   border: 1px solid rgba(71, 38, 28, 0.08);
-  border-radius: 32px;
+  border-radius: 24px;
   background: rgba(255, 255, 255, 0.84);
-  box-shadow: 0 20px 52px rgba(92, 56, 40, 0.08);
+  box-shadow: 0 16px 34px rgba(92, 56, 40, 0.08);
 }
 
 .section-header {
@@ -109,28 +109,28 @@ h1 {
 
 .compact-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: var(--space-5);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-4);
 }
 
 .promo-stack {
   display: grid;
-  gap: var(--space-6);
+  gap: var(--space-5);
 }
 
 .flash-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: var(--space-5);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--space-4);
 }
 
 @media (max-width: 1200px) {
   .compact-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .flash-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
