@@ -1,0 +1,33 @@
+:root {
+  color-scheme: light;
+  font-family:
+    "Avenir Next",
+    "PingFang TC",
+    "Microsoft JhengHei",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
