@@ -2,6 +2,8 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
+  effect,
+  inject,
   signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -14,6 +16,13 @@ import {
   type ProductCard,
   type ProductCardSettings,
 } from '../../shared/product-card/product-card.model';
+import { LocalStorageService } from '../../shared/services/local-storage.service';
+
+interface ShowroomState {
+  selectedCardId: string | null;
+  selectedVariant: CardVariant;
+  settings: ProductCardSettings;
+}
 
 const DEFAULT_SETTINGS: ProductCardSettings = {
   showSubtitle: true,
@@ -22,6 +31,8 @@ const DEFAULT_SETTINGS: ProductCardSettings = {
   showTags: true,
   emphasizePrice: true,
 };
+
+const SHOWROOM_STORAGE_KEY = 'momo-card-showroom-state';
 
 @Component({
   selector: 'app-card-showroom-page',
@@ -53,8 +64,35 @@ export class CardShowroomPageComponent {
   data-endpoint="/mock/momo-products.json"></momo-product-card>`,
   );
 
+  private readonly storage = inject(LocalStorageService);
+
   constructor() {
+    const persistedState = this.storage.getItem<Partial<ShowroomState>>(SHOWROOM_STORAGE_KEY);
+
+    if (persistedState?.selectedVariant) {
+      this.selectedVariant.set(persistedState.selectedVariant);
+    }
+
+    if (persistedState?.selectedCardId) {
+      this.selectedCardId.set(persistedState.selectedCardId);
+    }
+
+    if (persistedState?.settings) {
+      this.settings.set({
+        ...DEFAULT_SETTINGS,
+        ...persistedState.settings,
+      });
+    }
+
     void this.loadCards();
+
+    effect(() => {
+      this.storage.setItem<ShowroomState>(SHOWROOM_STORAGE_KEY, {
+        selectedCardId: this.selectedCard()?.id ?? null,
+        selectedVariant: this.selectedVariant(),
+        settings: this.settings(),
+      });
+    });
   }
 
   protected trackByCardId(_: number, card: ProductCard): string {
