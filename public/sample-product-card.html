@@ -82,28 +82,32 @@
     </style>
   </head>
   <body>
-    <article class="card" id="card"></article>
+    <momo-product-card
+      data-variant="Recommendation"
+      data-card='card'
+    ></momo-product-card>
 
     <script>
-      async function bootstrapSample() {
-        const response = await fetch('/mock/momo-products.json');
-        const payload = await response.json();
-        const item = payload.rtnData.goodsInfoList[0];
+      function bootstrapSample() {
+        const element = document.querySelector('momo-product-card');
+        const { variant = 'Recommendation', card = '{}' } = element.dataset;
+        const productCard = JSON.parse(card);
 
-        document.querySelector('#card').innerHTML = `
+        element.outerHTML = `
+          <article class="card">
           <div class="card__image">
-            <img src="${item.imgUrl}" alt="${item.goodsName}">
+            <img src="${productCard.imageUrl ?? ''}" alt="${productCard.title ?? ''}">
           </div>
           <div class="card__content">
-            <p class="card__variant">Recommendation</p>
-            <h1 class="card__title">${item.goodsName}</h1>
-            <p class="card__subtitle">${item.goodsSubName}</p>
+            <p class="card__variant">${variant}</p>
+            <h1 class="card__title">${productCard.title ?? ''}</h1>
+            <p class="card__subtitle">${productCard.subtitle ?? ''}</p>
             <div class="card__price-row">
-              <p class="card__price">${item.goodsPrice}</p>
-              <p class="card__original">${item.marketPrice}</p>
+              <p class="card__price">${productCard.price ?? ''}</p>
+              <p class="card__original">${productCard.originalPrice ?? ''}</p>
             </div>
           </div>
-        `;
+        </article>`;
       }
 
       bootstrapSample();

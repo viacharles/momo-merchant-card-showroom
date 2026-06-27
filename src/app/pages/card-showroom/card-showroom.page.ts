@@ -77,10 +77,14 @@ export class CardShowroomPageComponent {
   });
 
   protected readonly sampleSnippet = computed(
-    () => `<momo-product-card
-  data-id="${this.selectedCard()?.id ?? '13935648'}"
-  data-variant="${this.selectedVariant()}"
-  data-endpoint="/mock/momo-products.json"></momo-product-card>`,
+    () => {
+      const card = this.selectedCard();
+      const serializedCard = this.escapeAttribute(JSON.stringify(card ?? this.getFallbackCard()));
+
+      return `<momo-product-card
+  data-variant="${this.escapeAttribute(this.selectedVariant())}"
+  data-card="${serializedCard}"></momo-product-card>`;
+    },
   );
 
   private readonly storage = inject(LocalStorageService);
@@ -126,13 +130,6 @@ export class CardShowroomPageComponent {
     this.selectedVariant.set(variant as CardVariant);
   }
 
-  protected toggleSetting(setting: keyof ProductCardSettings): void {
-    this.settings.update((current) => ({
-      ...current,
-      [setting]: !current[setting],
-    }));
-  }
-
   private async loadCards(): Promise<void> {
     this.isLoading.set(true);
     this.errorMessage.set(null);
@@ -158,5 +155,26 @@ export class CardShowroomPageComponent {
     } finally {
       this.isLoading.set(false);
     }
+  }
+
+  private escapeAttribute(value: string): string {
+    return value
+      .replaceAll('&', '&amp;')
+      .replaceAll('"', '&quot;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;');
+  }
+
+  private getFallbackCard(): ProductCard {
+    return {
+      id: '13935648',
+      imageUrl: '',
+      title: '',
+      subtitle: '',
+      price: '',
+      originalPrice: '',
+      stock: '',
+      tags: [],
+    };
   }
 }
