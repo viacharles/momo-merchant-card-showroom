@@ -2,7 +2,7 @@
   <div class="image-frame">
     <img [src]="card().imageUrl" [alt]="card().title" loading="lazy" />
 
-    @if (card().tags.length) {
+    @if (settings().showTags && card().tags.length) {
       <div class="tag-stack">
         @for (tag of card().tags; track tag.label) {
           <span
@@ -24,20 +24,20 @@
     <p class="variant-label">{{ variant() }}</p>
     <h3>{{ card().title }}</h3>
 
-    @if (card().subtitle) {
+    @if (settings().showSubtitle && card().subtitle) {
       <p class="subtitle">{{ card().subtitle }}</p>
     }
 
     <div class="price-row">
       <p class="price">{{ card().price }}</p>
 
-      @if (card().originalPrice) {
+      @if (settings().showOriginalPrice && card().originalPrice) {
         <p class="original-price">{{ card().originalPrice }}</p>
       }
     </div>
 
     <div class="footer-row">
-      @if (stockLabel()) {
+      @if (settings().showStock && stockLabel()) {
         <span class="stock-pill">{{ stockLabel() }}</span>
       }
 

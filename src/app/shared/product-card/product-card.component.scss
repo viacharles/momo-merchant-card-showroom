@@ -173,3 +173,7 @@ h3 {
 .product-card--search .price {
   color: #0f5ea8;
 }
+
+.product-card--price-emphasis .price {
+  text-shadow: 0 10px 26px rgba(219, 67, 0, 0.18);
+}

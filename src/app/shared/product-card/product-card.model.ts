@@ -98,3 +98,11 @@ export interface ProductTag {
   textColor: string;
   iconUrl?: string;
 }
+
+export interface ProductCardSettings {
+  showSubtitle: boolean;
+  showOriginalPrice: boolean;
+  showStock: boolean;
+  showTags: boolean;
+  emphasizePrice: boolean;
+}

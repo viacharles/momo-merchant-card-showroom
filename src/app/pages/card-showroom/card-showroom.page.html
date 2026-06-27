@@ -11,7 +11,7 @@
     <div class="hero-meta">
       <span>{{ cards().length }} cards loaded</span>
       <span>Mode: standalone + signals</span>
-      <span>Preview: recommendation card</span>
+      <span>Preview: configurable card</span>
     </div>
   </header>
 
@@ -47,6 +47,55 @@
         </div>
 
         <div class="panel-section">
+          <h2>Controls</h2>
+
+          <label class="toggle-field">
+            <input
+              type="checkbox"
+              [checked]="settings().showSubtitle"
+              (change)="toggleSetting('showSubtitle')"
+            />
+            <span>Show subtitle</span>
+          </label>
+
+          <label class="toggle-field">
+            <input
+              type="checkbox"
+              [checked]="settings().showOriginalPrice"
+              (change)="toggleSetting('showOriginalPrice')"
+            />
+            <span>Show original price</span>
+          </label>
+
+          <label class="toggle-field">
+            <input
+              type="checkbox"
+              [checked]="settings().showStock"
+              (change)="toggleSetting('showStock')"
+            />
+            <span>Show stock</span>
+          </label>
+
+          <label class="toggle-field">
+            <input
+              type="checkbox"
+              [checked]="settings().showTags"
+              (change)="toggleSetting('showTags')"
+            />
+            <span>Show tags</span>
+          </label>
+
+          <label class="toggle-field">
+            <input
+              type="checkbox"
+              [checked]="settings().emphasizePrice"
+              (change)="toggleSetting('emphasizePrice')"
+            />
+            <span>Emphasize price</span>
+          </label>
+        </div>
+
+        <div class="panel-section">
           <h2>Variant</h2>
 
           <label class="select-field">
@@ -77,6 +126,7 @@
             <app-product-card
               [card]="card"
               [variant]="selectedVariant()"
+              [settings]="settings()"
             />
           }
         </section>

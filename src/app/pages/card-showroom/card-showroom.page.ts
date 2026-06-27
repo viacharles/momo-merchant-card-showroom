@@ -12,7 +12,16 @@ import {
   CardVariant,
   type MomoApiResponse,
   type ProductCard,
+  type ProductCardSettings,
 } from '../../shared/product-card/product-card.model';
+
+const DEFAULT_SETTINGS: ProductCardSettings = {
+  showSubtitle: true,
+  showOriginalPrice: true,
+  showStock: true,
+  showTags: true,
+  emphasizePrice: true,
+};
 
 @Component({
   selector: 'app-card-showroom-page',
@@ -28,6 +37,7 @@ export class CardShowroomPageComponent {
   protected readonly cards = signal<ProductCard[]>([]);
   protected readonly selectedCardId = signal<string | null>(null);
   protected readonly selectedVariant = signal<CardVariant>(CardVariant.Recommendation);
+  protected readonly settings = signal<ProductCardSettings>(DEFAULT_SETTINGS);
 
   protected readonly selectedCard = computed(() => {
     const cards = this.cards();
@@ -57,6 +67,13 @@ export class CardShowroomPageComponent {
 
   protected updateVariant(variant: string): void {
     this.selectedVariant.set(variant as CardVariant);
+  }
+
+  protected toggleSetting(setting: keyof ProductCardSettings): void {
+    this.settings.update((current) => ({
+      ...current,
+      [setting]: !current[setting],
+    }));
   }
 
   private async loadCards(): Promise<void> {
