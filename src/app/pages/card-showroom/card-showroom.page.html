@@ -70,11 +70,20 @@
           </div>
 
           @if (selectedCard(); as card) {
-            <app-product-card
-              [card]="card"
-              [variant]="selectedVariant()"
-              [settings]="settings()"
-            />
+            <div class="preview-layout">
+              <app-product-card
+                [card]="card"
+                [variant]="selectedVariant()"
+                [settings]="settings()"
+              />
+
+              <app-product-card-cluster
+                [mainCard]="card"
+                [companionCards]="companionCards()"
+                [variant]="selectedVariant()"
+                [settings]="settings()"
+              />
+            </div>
           }
         </section>
 

@@ -8,14 +8,15 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ProductCardComponent } from '../../shared/product-card/product-card.component';
-import { mapMomoGoodsToProductCard } from '../../shared/product-card/product-card.mapper';
+import { ProductCardClusterComponent } from '../../shared/components/product-card-cluster/product-card-cluster.component';
+import { ProductCardComponent } from '../../shared/components/product-card/product-card.component';
+import { mapMomoGoodsToProductCard } from '../../shared/components/product-card/product-card.mapper';
 import {
   CardVariant,
   type MomoApiResponse,
   type ProductCard,
   type ProductCardSettings,
-} from '../../shared/product-card/product-card.model';
+} from '../../shared/components/product-card/product-card.model';
 import { LocalStorageService } from '../../shared/services/local-storage.service';
 
 interface ShowroomState {
@@ -36,7 +37,7 @@ const SHOWROOM_STORAGE_KEY = 'momo-card-showroom-state';
 
 @Component({
   selector: 'app-card-showroom-page',
-  imports: [CommonModule, ProductCardComponent],
+  imports: [CommonModule, ProductCardComponent, ProductCardClusterComponent],
   templateUrl: './card-showroom.page.html',
   styleUrl: './card-showroom.page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -55,6 +56,24 @@ export class CardShowroomPageComponent {
     const selectedId = this.selectedCardId();
 
     return cards.find((card) => card.id === selectedId) ?? cards[0] ?? null;
+  });
+
+  protected readonly companionCards = computed(() => {
+    const cards = this.cards();
+    const selectedId = this.selectedCardId();
+
+    if (!cards.length) {
+      return [];
+    }
+
+    const selectedIndex = cards.findIndex((card) => card.id === selectedId);
+    const startIndex = selectedIndex >= 0 ? selectedIndex : 0;
+
+    return Array.from({ length: Math.min(3, Math.max(cards.length - 1, 0)) }, (_, index) => {
+      const nextIndex = (startIndex + index + 1) % cards.length;
+
+      return cards[nextIndex];
+    }).filter((card) => card.id !== cards[startIndex].id);
   });
 
   protected readonly sampleSnippet = computed(

@@ -165,8 +165,7 @@ h1 {
   font-weight: 700;
 }
 
-.select-field,
-.toggle-field {
+.select-field {
   display: flex;
   gap: var(--space-4);
   align-items: center;
@@ -190,16 +189,6 @@ h1 {
   background: var(--color-surface-base);
 }
 
-.toggle-field + .toggle-field {
-  margin-top: var(--space-4);
-}
-
-.toggle-field input {
-  width: 18px;
-  height: 18px;
-  accent-color: var(--color-accent-strong);
-}
-
 .preview-stack {
   display: grid;
   gap: var(--space-6);
@@ -207,6 +196,13 @@ h1 {
 
 .preview-card {
   padding: var(--space-6);
+}
+
+.preview-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 360px) minmax(420px, 1fr);
+  gap: var(--space-6);
+  align-items: start;
 }
 
 .preview-header {
@@ -242,6 +238,10 @@ pre {
   }
 
   .showroom-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .preview-layout {
     grid-template-columns: 1fr;
   }
 

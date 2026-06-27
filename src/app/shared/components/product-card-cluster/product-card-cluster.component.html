@@ -1,0 +1,50 @@
+<article class="product-card-cluster" [ngClass]="clusterClass()">
+  <section class="cluster-main">
+    <div class="cluster-main__media">
+      <img [src]="mainCard().imageUrl" [alt]="mainCard().title" loading="lazy" />
+    </div>
+
+    <div class="cluster-main__content">
+      <p class="cluster-main__variant">{{ variant() }}</p>
+      <h3>{{ mainCard().title }}</h3>
+
+      @if (settings().showSubtitle && mainCard().subtitle) {
+        <p class="cluster-main__subtitle">{{ mainCard().subtitle }}</p>
+      }
+
+      <div class="cluster-main__price-row">
+        <p class="cluster-main__price">{{ mainCard().price }}</p>
+
+        @if (settings().showOriginalPrice && mainCard().originalPrice) {
+          <p class="cluster-main__original">{{ mainCard().originalPrice }}</p>
+        }
+      </div>
+    </div>
+  </section>
+
+  <aside class="cluster-side">
+    @for (card of companionCards(); track card.id) {
+      <article class="mini-card">
+        <div class="mini-card__thumb">
+          <img [src]="card.imageUrl" [alt]="card.title" loading="lazy" />
+        </div>
+
+        <div class="mini-card__content">
+          <h4>{{ card.title }}</h4>
+
+          @if (settings().showSubtitle && card.subtitle) {
+            <p class="mini-card__subtitle">{{ card.subtitle }}</p>
+          }
+
+          <div class="mini-card__meta">
+            <strong>{{ card.price }}</strong>
+
+            @if (settings().showStock && card.stock) {
+              <span>庫存 {{ card.stock }}</span>
+            }
+          </div>
+        </div>
+      </article>
+    }
+  </aside>
+</article>
