@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/momo-merchant-card-showroom/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
