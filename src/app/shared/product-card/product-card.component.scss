@@ -5,54 +5,58 @@
 .product-card {
   overflow: hidden;
   width: min(100%, 360px);
-  border: 1px solid rgba(59, 27, 19, 0.08);
-  border-radius: 28px;
-  background: #fff;
-  box-shadow: 0 18px 40px rgba(67, 29, 16, 0.1);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-base);
+  box-shadow: var(--shadow-card);
   transition:
-    transform 160ms ease,
-    box-shadow 160ms ease;
+    transform var(--transition-base),
+    box-shadow var(--transition-base);
 }
 
 .product-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 26px 50px rgba(67, 29, 16, 0.14);
+  box-shadow: var(--shadow-card-hover);
 }
 
 .image-frame {
   position: relative;
   aspect-ratio: 1 / 1;
-  padding: 18px;
+  padding: var(--space-7);
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.72), transparent 45%),
-    linear-gradient(180deg, #fff7f1, #ffe6d8);
+    linear-gradient(
+      180deg,
+      var(--color-surface-soft),
+      var(--color-gradient-card-end)
+    );
 }
 
 .image-frame img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 12px 18px rgba(52, 18, 8, 0.12));
+  filter: var(--shadow-image);
 }
 
 .tag-stack {
   position: absolute;
-  top: 14px;
-  left: 14px;
+  top: var(--space-5);
+  left: var(--space-5);
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: var(--space-2);
 }
 
 .tag-chip {
   display: inline-flex;
-  gap: 6px;
+  gap: var(--space-1);
   align-items: center;
-  padding: 6px 10px;
-  border-radius: 999px;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
   font-size: 0.82rem;
   font-weight: 700;
-  box-shadow: 0 8px 18px rgba(44, 17, 8, 0.14);
+  box-shadow: var(--shadow-tag);
 }
 
 .tag-chip img {
@@ -63,12 +67,12 @@
 }
 
 .content {
-  padding: 18px 18px 20px;
+  padding: var(--space-7) var(--space-7) var(--space-8);
 }
 
 .variant-label {
-  margin: 0 0 10px;
-  color: #b1542c;
+  margin: 0 0 var(--space-3);
+  color: var(--color-accent-tertiary);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -79,7 +83,7 @@ h3 {
   display: -webkit-box;
   overflow: hidden;
   margin: 0;
-  color: #2d1b16;
+  color: var(--color-ink-primary);
   font-size: 1rem;
   line-height: 1.45;
   -webkit-line-clamp: 2;
@@ -89,8 +93,8 @@ h3 {
 .subtitle {
   display: -webkit-box;
   overflow: hidden;
-  margin: 10px 0 0;
-  color: #72564b;
+  margin: var(--space-3) 0 0;
+  color: var(--color-ink-subtle);
   font-size: 0.92rem;
   line-height: 1.5;
   -webkit-line-clamp: 2;
@@ -99,14 +103,14 @@ h3 {
 
 .price-row {
   display: flex;
-  gap: 10px;
+  gap: var(--space-3);
   align-items: end;
-  margin-top: 18px;
+  margin-top: var(--space-7);
 }
 
 .price {
   margin: 0;
-  color: #cf3b00;
+  color: var(--color-accent-primary);
   font-size: 1.8rem;
   font-weight: 800;
   line-height: 1;
@@ -122,9 +126,9 @@ h3 {
 .footer-row {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: var(--space-4);
   align-items: center;
-  margin-top: 16px;
+  margin-top: var(--space-6);
 }
 
 .stock-pill,
@@ -132,48 +136,60 @@ h3 {
   display: inline-flex;
   align-items: center;
   min-height: 32px;
-  padding: 0 12px;
-  border-radius: 999px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-pill);
   font-size: 0.84rem;
 }
 
 .stock-pill {
-  background: #fff1ea;
-  color: #c95021;
+  background: var(--color-surface-pill);
+  color: var(--color-accent-stock);
   font-weight: 700;
 }
 
 .goods-code {
-  background: #f6f0ec;
-  color: #745b50;
+  background: var(--color-surface-code-chip);
+  color: var(--color-ink-tertiary);
 }
 
 .product-card--recommendation .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
-    linear-gradient(180deg, #fff7f1, #ffe6d8);
+    linear-gradient(
+      180deg,
+      var(--color-surface-soft),
+      var(--color-gradient-card-end)
+    );
 }
 
 .product-card--search .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
-    linear-gradient(180deg, #f7fbff, #dcefff);
+    linear-gradient(
+      180deg,
+      var(--color-gradient-search-start),
+      var(--color-gradient-search-end)
+    );
 }
 
 .product-card--flash .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.82), transparent 45%),
-    linear-gradient(180deg, #fff7f7, #ffd4cb);
+    linear-gradient(
+      180deg,
+      var(--color-gradient-flash-start),
+      var(--color-gradient-flash-end)
+    );
 }
 
 .product-card--flash .price {
-  color: #b91c1c;
+  color: var(--color-flash-accent);
 }
 
 .product-card--search .price {
-  color: #0f5ea8;
+  color: var(--color-search-accent);
 }
 
 .product-card--price-emphasis .price {
-  text-shadow: 0 10px 26px rgba(219, 67, 0, 0.18);
+  text-shadow: var(--shadow-price-glow);
 }

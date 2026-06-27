@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light;
+
+  --font-family-base:
+    "Avenir Next",
+    "PingFang TC",
+    "Microsoft JhengHei",
+    sans-serif;
+
+  --color-ink-strong: #2f1f1a;
+  --color-ink-primary: #2d1b16;
+  --color-ink-secondary: #3d251d;
+  --color-ink-muted: #6b5248;
+  --color-ink-soft: #6e5a52;
+  --color-ink-subtle: #72564b;
+  --color-ink-tertiary: #745b50;
+
+  --color-accent-primary: #cf3b00;
+  --color-accent-secondary: #cc5d2d;
+  --color-accent-tertiary: #b1542c;
+  --color-accent-strong: #dd5320;
+  --color-accent-soft: #d34d13;
+  --color-accent-stock: #c95021;
+  --color-danger: #9d2a14;
+
+  --color-search-accent: #0f5ea8;
+  --color-flash-accent: #b91c1c;
+
+  --color-surface-base: #fff;
+  --color-surface-raised: rgba(255, 255, 255, 0.84);
+  --color-surface-glass: rgba(255, 255, 255, 0.72);
+  --color-surface-warm: #fff8f3;
+  --color-surface-soft: #fff7f1;
+  --color-surface-card: #fff5f0;
+  --color-surface-pill: #fff1ea;
+  --color-surface-code: #281d18;
+  --color-surface-code-text: #fcefe5;
+  --color-surface-code-chip: #f6f0ec;
+
+  --color-gradient-warm-end: #fff4ec;
+  --color-gradient-card-end: #ffe6d8;
+  --color-gradient-search-start: #f7fbff;
+  --color-gradient-search-end: #dcefff;
+  --color-gradient-flash-start: #fff7f7;
+  --color-gradient-flash-end: #ffd4cb;
+
+  --color-border-soft: rgba(71, 38, 28, 0.08);
+  --color-border-mute: rgba(84, 42, 18, 0.08);
+  --color-border-strong: rgba(71, 38, 28, 0.14);
+  --color-border-interactive: rgba(220, 94, 48, 0.3);
+
+  --shadow-panel: 0 18px 50px rgba(92, 56, 40, 0.08);
+  --shadow-card: 0 18px 40px rgba(67, 29, 16, 0.1);
+  --shadow-card-hover: 0 26px 50px rgba(67, 29, 16, 0.14);
+  --shadow-button-hover: 0 10px 26px rgba(220, 94, 48, 0.12);
+  --shadow-tag: 0 8px 18px rgba(44, 17, 8, 0.14);
+  --shadow-price-glow: 0 10px 26px rgba(219, 67, 0, 0.18);
+  --shadow-image: drop-shadow(0 12px 18px rgba(52, 18, 8, 0.12));
+
+  --radius-pill: 999px;
+  --radius-sm: 16px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+
+  --space-1: 6px;
+  --space-2: 8px;
+  --space-3: 10px;
+  --space-4: 12px;
+  --space-5: 14px;
+  --space-6: 16px;
+  --space-7: 18px;
+  --space-8: 20px;
+  --space-9: 24px;
+  --space-10: 28px;
+  --space-11: 32px;
+
+  --transition-fast: 140ms ease;
+  --transition-base: 160ms ease;
+}
