@@ -1,0 +1,47 @@
+<article class="product-card" [ngClass]="cardClass()">
+  <div class="image-frame">
+    <img [src]="card().imageUrl" [alt]="card().title" loading="lazy" />
+
+    @if (card().tags.length) {
+      <div class="tag-stack">
+        @for (tag of card().tags; track tag.label) {
+          <span
+            class="tag-chip"
+            [style.background]="tag.bgColor"
+            [style.color]="tag.textColor"
+          >
+            @if (tag.iconUrl) {
+              <img [src]="tag.iconUrl" [alt]="tag.label" loading="lazy" />
+            }
+            {{ tag.label }}
+          </span>
+        }
+      </div>
+    }
+  </div>
+
+  <div class="content">
+    <p class="variant-label">{{ variant() }}</p>
+    <h3>{{ card().title }}</h3>
+
+    @if (card().subtitle) {
+      <p class="subtitle">{{ card().subtitle }}</p>
+    }
+
+    <div class="price-row">
+      <p class="price">{{ card().price }}</p>
+
+      @if (card().originalPrice) {
+        <p class="original-price">{{ card().originalPrice }}</p>
+      }
+    </div>
+
+    <div class="footer-row">
+      @if (stockLabel()) {
+        <span class="stock-pill">{{ stockLabel() }}</span>
+      }
+
+      <span class="goods-code">#{{ card().id }}</span>
+    </div>
+  </div>
+</article>
