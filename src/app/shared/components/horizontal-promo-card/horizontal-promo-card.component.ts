@@ -4,57 +4,38 @@ import {
   computed,
   inject,
   input,
-  signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MediaLightboxComponent } from '../media-lightbox/media-lightbox.component';
-import {
-  type HorizontalPromoCardData,
-  type ShowcaseMedia,
-} from '../momo-card-types/momo-card-types.model';
+import { DragCarouselDirective } from '../../directives/drag-carousel.directive';
+import { type HorizontalPromoCardData, type ShowcaseMedia } from '../momo-card-types/momo-card-types.model';
+import { createCarouselState } from '../momo-card-types/carousel-state';
 import { DialogService } from '../../services/dialog.service';
 
 @Component({
   selector: 'app-horizontal-promo-card',
-  imports: [CommonModule],
+  imports: [CommonModule, DragCarouselDirective],
   templateUrl: './horizontal-promo-card.component.html',
   styleUrl: './horizontal-promo-card.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HorizontalPromoCardComponent {
   readonly card = input.required<HorizontalPromoCardData>();
-  protected readonly activeIndex = signal(0);
   private readonly dialog = inject(DialogService);
+  private readonly carousel = createCarouselState(() => this.card().mediaGallery.length);
 
-  private dragStartX = 0;
-
-  protected readonly activeSlide = computed(() => this.card().mediaGallery[this.activeIndex()] ?? null);
-
-  protected setActiveIndex(index: number): void {
-    this.activeIndex.set(index);
-  }
-
-  protected onPointerDown(event: PointerEvent): void {
-    this.dragStartX = event.clientX;
-  }
-
-  protected onPointerUp(event: PointerEvent): void {
-    const delta = event.clientX - this.dragStartX;
-
-    if (Math.abs(delta) < 24) {
-      return;
-    }
-
-    if (delta < 0) {
-      this.activeIndex.update((current) =>
-        Math.min(current + 1, this.card().mediaGallery.length - 1),
-      );
-      return;
-    }
-
-    this.activeIndex.update((current) => Math.max(current - 1, 0));
-  }
+  protected readonly activeIndex = this.carousel.activeIndex;
+  protected readonly dragOffsetPx = this.carousel.dragOffsetPx;
+  protected readonly isDragging = this.carousel.isDragging;
+  protected readonly nextSlide = this.carousel.next;
+  protected readonly prevSlide = this.carousel.prev;
+  protected readonly setActiveIndex = this.carousel.setActiveIndex;
+  protected readonly setDragOffset = this.carousel.setDragOffset;
+  protected readonly resetDragOffset = this.carousel.resetDragOffset;
+  protected readonly trackTransform = computed(
+    () => `translateX(calc(${-this.activeIndex() * 100}% + ${this.dragOffsetPx()}px))`,
+  );
 
   protected openMedia(media: ShowcaseMedia): void {
     if (media.type === 'video') {

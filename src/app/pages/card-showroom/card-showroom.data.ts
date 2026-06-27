@@ -40,10 +40,20 @@ export const compactVerticalCards: CompactVerticalCardData[] = [
     ratingCount: 4818,
     salesLabel: '總銷量>20萬',
     badges: ['速', '登記'],
-    media: createImageMedia(
-      'https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp',
-      '麥當勞優惠券商品示意',
-    ),
+    mediaGallery: [
+      createImageMedia(
+        'https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp',
+        '麥當勞優惠券商品示意',
+      ),
+      createImageMedia(
+        'https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_OL_m.webp',
+        '麥當勞優惠券商品圖 2',
+      ),
+      createImageMedia(
+        'https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OL_m.webp',
+        '麥當勞優惠券商品圖 3',
+      ),
+    ],
   },
   {
     id: 'compact-2',
@@ -54,11 +64,21 @@ export const compactVerticalCards: CompactVerticalCardData[] = [
     ratingCount: 1473,
     salesLabel: '總銷量>40萬',
     badges: ['折價券', '登記'],
-    media: createVideoMedia(
-      demoVideo,
-      'https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OL_m.webp',
-      '幫寶適商品介紹影片',
-    ),
+    mediaGallery: [
+      createVideoMedia(
+        demoVideo,
+        'https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OL_m.webp',
+        '幫寶適商品介紹影片',
+      ),
+      createImageMedia(
+        'https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OL_m.webp',
+        '幫寶適商品圖 1',
+      ),
+      createImageMedia(
+        'https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OL_m.webp',
+        '幫寶適商品圖 2',
+      ),
+    ],
   },
   {
     id: 'compact-3',
@@ -69,11 +89,21 @@ export const compactVerticalCards: CompactVerticalCardData[] = [
     ratingCount: 29292,
     salesLabel: '總銷量>30萬',
     badges: ['速', '登記'],
-    media: createVideoMedia(
-      demoVideo,
-      'https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OL_m.webp',
-      'ARIEL 商品影片',
-    ),
+    mediaGallery: [
+      createVideoMedia(
+        demoVideo,
+        'https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OL_m.webp',
+        'ARIEL 商品影片',
+      ),
+      createImageMedia(
+        'https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OL_m.webp',
+        'ARIEL 商品圖 1',
+      ),
+      createImageMedia(
+        'https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp',
+        'ARIEL 商品圖 2',
+      ),
+    ],
   },
   {
     id: 'compact-4',
@@ -84,10 +114,20 @@ export const compactVerticalCards: CompactVerticalCardData[] = [
     ratingCount: 20255,
     salesLabel: '總銷量>20萬',
     badges: ['登記'],
-    media: createImageMedia(
-      'https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OL_m.webp',
-      '禾聯風扇商品圖',
-    ),
+    mediaGallery: [
+      createImageMedia(
+        'https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OL_m.webp',
+        '禾聯風扇商品圖',
+      ),
+      createImageMedia(
+        'https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_OL_m.webp',
+        '禾聯風扇商品圖 2',
+      ),
+      createImageMedia(
+        'https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OL_m.webp',
+        '禾聯風扇商品圖 3',
+      ),
+    ],
   },
   {
     id: 'compact-5',
@@ -98,10 +138,20 @@ export const compactVerticalCards: CompactVerticalCardData[] = [
     ratingCount: 177,
     salesLabel: '總銷量>5萬',
     badges: ['速', '登記'],
-    media: createImageMedia(
-      'https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OL_m.webp',
-      'Hair Recipe 商品圖',
-    ),
+    mediaGallery: [
+      createImageMedia(
+        'https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OL_m.webp',
+        'Hair Recipe 商品圖',
+      ),
+      createImageMedia(
+        'https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OL_m.webp',
+        'Hair Recipe 商品圖 2',
+      ),
+      createImageMedia(
+        'https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp',
+        'Hair Recipe 商品圖 3',
+      ),
+    ],
   },
 ];
 

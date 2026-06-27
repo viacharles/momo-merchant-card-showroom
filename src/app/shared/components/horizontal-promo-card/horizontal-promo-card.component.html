@@ -6,18 +6,32 @@
   <div class="promo-card__shell">
     <div
       class="promo-card__media"
-      (pointerdown)="onPointerDown($event)"
-      (pointerup)="onPointerUp($event)"
+      appDragCarousel
+      (dragOffsetChange)="setDragOffset($event)"
+      (dragEnded)="resetDragOffset()"
+      (swipedNext)="nextSlide()"
+      (swipedPrev)="prevSlide()"
     >
       <div
         class="promo-card__track"
-        [style.transform]="'translateX(-' + activeIndex() * 100 + '%)'"
+        [class.promo-card__track--dragging]="isDragging()"
+        [style.transform]="trackTransform()"
       >
         @for (media of card().mediaGallery; track media.src) {
           <figure class="promo-card__slide">
-            <img [src]="media.poster ?? media.src" [alt]="media.alt" loading="lazy" />
+            <img
+              [src]="media.poster ?? media.src"
+              [alt]="media.alt"
+              loading="lazy"
+              draggable="false"
+            />
             @if (media.type === 'video') {
-              <button type="button" class="promo-card__play" (click)="openMedia(media)">
+              <button
+                type="button"
+                class="promo-card__play"
+                (pointerdown)="$event.stopPropagation()"
+                (click)="$event.stopPropagation(); openMedia(media)"
+              >
                 ▶
               </button>
             }

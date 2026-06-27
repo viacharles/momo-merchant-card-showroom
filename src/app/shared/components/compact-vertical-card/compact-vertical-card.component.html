@@ -1,11 +1,51 @@
 <article class="compact-card">
-  <div class="compact-card__media">
-    <img [src]="card().media.poster ?? card().media.src" [alt]="card().media.alt" loading="lazy" />
+  <div
+    class="compact-card__media"
+    appDragCarousel
+    (dragOffsetChange)="setDragOffset($event)"
+    (dragEnded)="resetDragOffset()"
+    (swipedNext)="nextSlide()"
+    (swipedPrev)="prevSlide()"
+  >
+    <div
+      class="compact-card__track"
+      [class.compact-card__track--dragging]="isDragging()"
+      [style.transform]="trackTransform()"
+    >
+      @for (media of card().mediaGallery; track media.src) {
+        <figure class="compact-card__slide">
+          <img
+            [src]="media.poster ?? media.src"
+            [alt]="media.alt"
+            loading="lazy"
+            draggable="false"
+          />
 
-    @if (card().media.type === 'video') {
-      <button type="button" class="compact-card__play" (click)="openMedia(card().media)">
-        ▶
-      </button>
+          @if (media.type === 'video') {
+            <button
+              type="button"
+              class="compact-card__play"
+              (pointerdown)="$event.stopPropagation()"
+              (click)="$event.stopPropagation(); openMedia(media)"
+            >
+              ▶
+            </button>
+          }
+        </figure>
+      }
+    </div>
+
+    @if (card().mediaGallery.length > 1) {
+      <div class="compact-card__dots">
+        @for (media of card().mediaGallery; track media.src; let index = $index) {
+          <button
+            type="button"
+            class="compact-card__dot"
+            [class.compact-card__dot--active]="activeIndex() === index"
+            (click)="setActiveIndex(index)"
+          ></button>
+        }
+      </div>
     }
   </div>
 

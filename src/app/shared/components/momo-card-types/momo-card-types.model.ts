@@ -14,7 +14,7 @@ export interface CompactVerticalCardData {
   ratingCount: number;
   salesLabel: string;
   badges: string[];
-  media: ShowcaseMedia;
+  mediaGallery: ShowcaseMedia[];
 }
 
 export interface HorizontalPromoCardData {

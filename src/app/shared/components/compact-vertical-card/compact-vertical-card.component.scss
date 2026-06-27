@@ -17,6 +17,24 @@
   position: relative;
   aspect-ratio: 1 / 1;
   background: linear-gradient(180deg, #fff8f3, #fff2ea);
+  overflow: hidden;
+}
+
+.compact-card__track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  height: 100%;
+  transition: transform 220ms ease;
+}
+
+.compact-card__track--dragging {
+  transition: none;
+}
+
+.compact-card__slide {
+  position: relative;
+  margin: 0;
 }
 
 .compact-card__media img {
@@ -37,6 +55,36 @@
   color: #fff;
   font-size: 1.1rem;
   cursor: pointer;
+}
+
+.compact-card__dots {
+  position: absolute;
+  inset: auto 0 var(--space-3);
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.35rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background: rgba(74, 63, 58, 0.28);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+.compact-card__dot {
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.compact-card__dot--active {
+  width: 20px;
+  background: #ffffff;
 }
 
 .compact-card__body {
