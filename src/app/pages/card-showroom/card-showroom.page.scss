@@ -4,7 +4,7 @@
 
 .showroom-shell {
   min-height: 100dvh;
-  padding: var(--space-11);
+  padding: var(--space-8);
   background:
     radial-gradient(circle at top left, rgba(255, 221, 210, 0.9), transparent 28%),
     linear-gradient(
@@ -25,9 +25,9 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  gap: var(--space-9);
-  align-items: end;
-  margin-bottom: var(--space-10);
+  gap: var(--space-6);
+  align-items: start;
+  margin-bottom: var(--space-6);
 }
 
 .eyebrow {
@@ -51,16 +51,9 @@ p {
 }
 
 h1 {
-  font-size: clamp(2rem, 4vw, 3.5rem);
-  line-height: 0.95;
+  font-size: clamp(1.5rem, 1.7rem, 2.4rem);
+  line-height: 1;
   letter-spacing: -0.04em;
-}
-
-.hero-copy {
-  max-width: 52ch;
-  margin-top: var(--space-4);
-  color: var(--color-ink-muted);
-  line-height: 1.6;
 }
 
 .hero-meta {
@@ -71,17 +64,18 @@ h1 {
 }
 
 .hero-meta span {
-  padding: var(--space-3) var(--space-5);
+  padding: 8px 12px;
   border: 1px solid var(--color-border-mute);
   border-radius: var(--radius-pill);
   background: var(--color-surface-glass);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 }
 
 .showroom-grid {
   display: grid;
   grid-template-columns: minmax(320px, 360px) minmax(0, 1fr);
-  gap: var(--space-9);
+  gap: var(--space-6);
+  align-items: start;
 }
 
 .panel,
@@ -95,12 +89,18 @@ h1 {
 }
 
 .panel {
-  padding: var(--space-8);
+  position: sticky;
+  top: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100dvh - (var(--space-8) * 2));
+  padding: var(--space-6);
+  overflow: auto;
 }
 
 .panel-section + .panel-section {
-  margin-top: var(--space-9);
-  padding-top: var(--space-9);
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
   border-top: 1px solid var(--color-border-soft);
 }
 
@@ -112,7 +112,7 @@ h1 {
 .card-list {
   display: grid;
   gap: var(--space-4);
-  margin-top: var(--space-5);
+  margin-top: var(--space-4);
 }
 
 .card-list-item {
@@ -175,7 +175,7 @@ h1 {
 .select-field {
   flex-direction: column;
   align-items: stretch;
-  margin-top: var(--space-5);
+  margin-top: var(--space-4);
 }
 
 .select-field span {
@@ -202,18 +202,18 @@ h1 {
 
 .preview-stack {
   display: grid;
-  gap: var(--space-9);
+  gap: var(--space-6);
 }
 
 .preview-card {
-  padding: var(--space-9);
+  padding: var(--space-6);
 }
 
 .preview-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-5);
 }
 
 pre {
@@ -229,7 +229,7 @@ pre {
 .status-card {
   max-width: 1240px;
   margin: 0 auto;
-  padding: var(--space-10);
+  padding: var(--space-8);
 }
 
 .status-card--error {
@@ -238,7 +238,7 @@ pre {
 
 @media (max-width: 960px) {
   .showroom-shell {
-    padding: var(--space-8);
+    padding: var(--space-6);
   }
 
   .showroom-grid {
@@ -248,5 +248,11 @@ pre {
   .hero {
     flex-direction: column;
     align-items: start;
+  }
+
+  .panel {
+    position: static;
+    max-height: none;
+    overflow: visible;
   }
 }
