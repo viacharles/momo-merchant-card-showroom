@@ -1,0 +1,1605 @@
+{
+    "rtnData": {
+        "mdiv": "GoodsDetail_m-bt_r_sub_01",
+        "goodsInfoList": [
+            {
+                "imgUrl": "https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L_m.webp",
+                    "https://i2.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L_m.webp",
+                    "https://i2.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】Max Factory 福音戰士 綾波零 長髮(組裝PLAMAX 電玩周邊 好微笑)",
+                "goodsSubName": "你不會死的……。我會保護你的。",
+                "marketPrice": "$1,790",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,790",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,660",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,660",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "13935648",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "13935648",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_0"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_0-13935648-1782558803768",
+                        "goodsCode": "13935648",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91Max+Factory+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E7%B6%BE%E6%B3%A2%E9%9B%B6+%E9%95%B7%E9%AB%AE%28%E7%B5%84%E8%A3%9DPLAMAX+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"I2I_SWING\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_0",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L_m.webp",
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L1_m.webp",
+                    "https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L4_m.webp",
+                    "https://i2.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L_m.webp",
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L1_m.webp",
+                    "https://i1.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L4_m.webp",
+                    "https://i2.momoshop.com.tw/1778049775/goodsimg/0015/227/223/15227223_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購11月暫定★好微笑 莉可麗絲 千束＆瀧奈 派對之後 L Size(POP UP PARADE 電玩周邊)",
+                "goodsSubName": "派對之後。注意！未成年不可飲酒",
+                "marketPrice": "$3,500",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "3,500",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$3,230",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "3,230",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15227223",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15227223",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_1"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img4.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_1-15227223-1782558803768",
+                        "goodsCode": "15227223",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC11%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E8%8E%89%E5%8F%AF%E9%BA%97%E7%B5%B2+%E5%8D%83%E6%9D%9F%EF%BC%86%E7%80%A7%E5%A5%88+%E6%B4%BE%E5%B0%8D%E4%B9%8B%E5%BE%8C+L+Size%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"I2I_SWING\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_1",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i1.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L2_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i1.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L2_m.webp",
+                    "https://i2.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1780648397/goodsimg/0015/344/248/15344248_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購27年5月★Arts Shanghai 福音戰士 式波·明日香·蘭格雷(1/7比例 電玩周邊 好微笑)",
+                "goodsSubName": "貞本義行繪製的明日香",
+                "marketPrice": "$4,200",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "4,200",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$3,930",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "3,930",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15344248",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15344248",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_2"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img1.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_2-15344248-1782558803768",
+                        "goodsCode": "15344248",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC27%E5%B9%B45%E6%9C%88%E2%98%85Arts+Shanghai+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E5%BC%8F%E6%B3%A2%C2%B7%E6%98%8E%E6%97%A5%E9%A6%99%C2%B7%E8%98%AD%E6%A0%BC%E9%9B%B7%281%2F7%E6%AF%94%E4%BE%8B+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_2",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L3_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L4_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L3_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L4_m.webp",
+                    "https://i2.momoshop.com.tw/1751448278/goodsimg/0014/176/026/14176026_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】Max Factory 福音戰士新劇場版 破 式波•明日香•蘭格雷(組裝 電玩周邊 好微笑)",
+                "goodsSubName": "明日香於PLAMAX系列降臨",
+                "marketPrice": "$1,850",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,850",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,700",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,700",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "14176026",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "14176026",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_3"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_3-14176026-1782558803768",
+                        "goodsCode": "14176026",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91Max+Factory+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB%E6%96%B0%E5%8A%87%E5%A0%B4%E7%89%88+%E7%A0%B4+%E5%BC%8F%E6%B3%A2%E2%80%A2%E6%98%8E%E6%97%A5%E9%A6%99%E2%80%A2%E8%98%AD%E6%A0%BC%E9%9B%B7%28%E7%B5%84%E8%A3%9D+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_3",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L_m.webp",
+                    "https://i1.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L3_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L_m.webp",
+                    "https://i1.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1742276562/goodsimg/0013/810/242/13810242_L3_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】好微笑 福音戰士新劇場版 明日香(可動 黏土娃 電玩周邊)",
+                "goodsSubName": "第2少女",
+                "marketPrice": "$1,890",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,890",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,750",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,750",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "13810242",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "13810242",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_4"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_4-13810242-1782558803768",
+                        "goodsCode": "13810242",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E5%A5%BD%E5%BE%AE%E7%AC%91+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB%E6%96%B0%E5%8A%87%E5%A0%B4%E7%89%88+%E6%98%8E%E6%97%A5%E9%A6%99%28%E5%8F%AF%E5%8B%95+%E9%BB%8F%E5%9C%9F%E5%A8%83+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_4",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i1.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L_m.webp",
+                    "https://i2.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L4_m.webp",
+                    "https://i3.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i1.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L_m.webp",
+                    "https://i2.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L4_m.webp",
+                    "https://i3.momoshop.com.tw/1747719845/goodsimg/0014/032/982/14032982_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】角川 新世紀福音戰士 惣流 明日香 蘭格雷(1/7比例 電玩周邊 好微笑)",
+                "goodsSubName": "貞本義行本人徹底監修！",
+                "marketPrice": "$4,590",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "4,590",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$4,560",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "4,560",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "14032982",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "14032982",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_5"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_5-14032982-1782558803768",
+                        "goodsCode": "14032982",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E8%A7%92%E5%B7%9D+%E6%96%B0%E4%B8%96%E7%B4%80%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E6%83%A3%E6%B5%81+%E6%98%8E%E6%97%A5%E9%A6%99+%E8%98%AD%E6%A0%BC%E9%9B%B7%281%2F7%E6%AF%94%E4%BE%8B+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_5",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i3.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L3_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i3.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1772700540/goodsimg/0015/012/284/15012284_L3_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購10月暫定★好微笑 Saber L size(POP UP PARADE BEACH QUEENS 電玩周邊 電玩周邊)",
+                "goodsSubName": "夏天！泳裝！海灘！",
+                "marketPrice": "$2,150",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,150",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,890",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,890",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "15012284",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15012284",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_6"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img3.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_6-15012284-1782558803768",
+                        "goodsCode": "15012284",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC10%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+Saber+L+size%28POP+UP+PARADE+BEACH+QUEENS+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_6",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i2.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L_m.webp",
+                    "https://i2.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L4_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i2.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L_m.webp",
+                    "https://i2.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1751852776/goodsimg/0014/187/624/14187624_L4_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】好微笑 福音戰士新劇場版 破 明日香 測試服Ver(可動 黏土人 電玩周邊)",
+                "goodsSubName": "……會不會太露？",
+                "marketPrice": "$1,650",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,650",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,500",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,500",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "14187624",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "14187624",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_7"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_7-14187624-1782558803768",
+                        "goodsCode": "14187624",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E5%A5%BD%E5%BE%AE%E7%AC%91+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB%E6%96%B0%E5%8A%87%E5%A0%B4%E7%89%88+%E7%A0%B4+%E6%98%8E%E6%97%A5%E9%A6%99+%E6%B8%AC%E8%A9%A6%E6%9C%8DVer%28%E5%8F%AF%E5%8B%95+%E9%BB%8F%E5%9C%9F%E4%BA%BA+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_7",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i1.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L4_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i1.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L4_m.webp",
+                    "https://i3.momoshop.com.tw/1779862445/goodsimg/0015/305/700/15305700_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購27年2月★Claynel 福音戰士 綾波零 VOYAGE END(1/7比例 電玩周邊 好微笑)",
+                "goodsSubName": "送別與思念，空虛與滿足……終",
+                "marketPrice": "$5,250",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "5,250",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$4,990",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "4,990",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15305700",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15305700",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_8"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img3.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_8-15305700-1782558803768",
+                        "goodsCode": "15305700",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC27%E5%B9%B42%E6%9C%88%E2%98%85Claynel+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E7%B6%BE%E6%B3%A2%E9%9B%B6+VOYAGE+END%281%2F7%E6%AF%94%E4%BE%8B+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_8",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L3_m.webp",
+                    "https://i2.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L3_m.webp",
+                    "https://i2.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1780385681/goodsimg/0015/329/890/15329890_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購27年2月★Claynel 福音戰士 綾波零 VOYAGE END(1/7比例 電玩周邊 好微笑)",
+                "goodsSubName": "送別與思念，空虛與滿足……終",
+                "marketPrice": "$5,250",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "5,250",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$4,990",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "4,990",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15329890",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15329890",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_9"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img4.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_9-15329890-1782558803768",
+                        "goodsCode": "15329890",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC27%E5%B9%B42%E6%9C%88%E2%98%85Claynel+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E7%B6%BE%E6%B3%A2%E9%9B%B6+VOYAGE+END%281%2F7%E6%AF%94%E4%BE%8B+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_9",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L4_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1779874502/goodsimg/0015/306/676/15306676_L4_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】好微笑 MF-87 新•日本英雄宇宙(PLAMAX 哥吉拉 福音戰士 超人力霸王 假面騎士 電玩周邊)",
+                "goodsSubName": "minimum的新 日本英雄",
+                "marketPrice": "$2,490",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,490",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$2,410",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,410",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15306676",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15306676",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_10"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_10-15306676-1782558803768",
+                        "goodsCode": "15306676",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E5%A5%BD%E5%BE%AE%E7%AC%91+MF-87+%E6%96%B0%E2%80%A2%E6%97%A5%E6%9C%AC%E8%8B%B1%E9%9B%84%E5%AE%87%E5%AE%99%28PLAMAX+%E5%93%A5%E5%90%89%E6%8B%89+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E8%B6%85%E4%BA%BA%E5%8A%9B%E9%9C%B8%E7%8E%8B+%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_10",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i3.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i3.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L_m.webp",
+                    "https://i1.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L2_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L4_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i3.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L_m.webp",
+                    "https://i1.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L2_m.webp",
+                    "https://i2.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1778049743/goodsimg/0015/227/214/15227214_L4_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購10月暫定★好微笑 大神 天照(POP UP PARADE 電玩周邊)",
+                "goodsSubName": "仰望的天照大神",
+                "marketPrice": "$1,350",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,350",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,100",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,100",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15227214",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15227214",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_11"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img3.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_11-15227214-1782558803768",
+                        "goodsCode": "15227214",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC10%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E5%A4%A7%E7%A5%9E+%E5%A4%A9%E7%85%A7%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_11",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L_m.webp",
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_OR_m.webp",
+                    "https://i2.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L_m.webp",
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L1_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L3_m.webp",
+                    "https://i3.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1745310595/goodsimg/0013/935/647/13935647_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】Max Factory 福音戰士 綾波零(組裝PLAMAX 電玩周邊 好微笑)",
+                "goodsSubName": "你不會死的……。我會保護你的。",
+                "marketPrice": "$1,790",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,790",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,660",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,660",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "13935647",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "13935647",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_12"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_12-13935647-1782558803768",
+                        "goodsCode": "13935647",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91Max+Factory+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E7%B6%BE%E6%B3%A2%E9%9B%B6%28%E7%B5%84%E8%A3%9DPLAMAX+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_12",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L3_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L_m.webp",
+                    "https://i3.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1779949791/goodsimg/0015/312/656/15312656_L3_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購11月到貨暫定★好微笑 福音戰士 綾波零 長髮Ver.(可動 黏土人 電玩周邊)",
+                "goodsSubName": "碇君，謝謝你。",
+                "marketPrice": "$1,750",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,750",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,470",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,470",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "15312656",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15312656",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_13"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img1.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_13-15312656-1782558803768",
+                        "goodsCode": "15312656",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC11%E6%9C%88%E5%88%B0%E8%B2%A8%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+%E7%B6%BE%E6%B3%A2%E9%9B%B6+%E9%95%B7%E9%AB%AEVer.%28%E5%8F%AF%E5%8B%95+%E9%BB%8F%E5%9C%9F%E4%BA%BA+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_13",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i1.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L_m.webp",
+                    "https://i2.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L3_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i1.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L_m.webp",
+                    "https://i2.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1772700570/goodsimg/0015/012/346/15012346_L3_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購10月暫定★好微笑  貓娘樂園 香草 冬裝 L size(POP UP PARADE 電玩周邊 電玩周邊)",
+                "goodsSubName": "貓娘香草的冬裝制服誘惑",
+                "marketPrice": "$2,050",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,050",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,820",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,820",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15012346",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15012346",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_14"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img4.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_14-15012346-1782558803768",
+                        "goodsCode": "15012346",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC10%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91++%E8%B2%93%E5%A8%98%E6%A8%82%E5%9C%92+%E9%A6%99%E8%8D%89+%E5%86%AC%E8%A3%9D+L+size%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_14",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i3.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L1_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i3.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_OR_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L1_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L2_m.webp",
+                    "https://i1.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L4_m.webp",
+                    "https://i4.momoshop.com.tw/1776152391/goodsimg/0015/146/814/15146814_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購27年3月暫定★好微笑 初音未來 JAPAN LIVE TOUR 2025 BLOOMING(1/7比例 電玩周邊)",
+                "goodsSubName": "獻上燦爛綻放的初音未來",
+                "marketPrice": "$9,150",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "9,150",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$8,920",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "8,920",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15146814",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15146814",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_15"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img4.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_15-15146814-1782558803768",
+                        "goodsCode": "15146814",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC27%E5%B9%B43%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E5%88%9D%E9%9F%B3%E6%9C%AA%E4%BE%86+JAPAN+LIVE+TOUR+2025+BLOOMING%281%2F7%E6%AF%94%E4%BE%8B+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_15",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i1.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i3.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L_m.webp",
+                    "https://i3.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L2_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i3.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L_m.webp",
+                    "https://i3.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1756389001/goodsimg/0014/386/298/14386298_L2_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】好微笑 初音未來 Psi Ver. L size(POP UP PARADE 電玩周邊)",
+                "goodsSubName": "初音未來的Psi扮相登場",
+                "marketPrice": "$1,990",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,990",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,840",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,840",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "14386298",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "14386298",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_16"
+                    }
+                },
+                "goodsTag": [],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_16-14386298-1782558803768",
+                        "goodsCode": "14386298",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E5%A5%BD%E5%BE%AE%E7%AC%91+%E5%88%9D%E9%9F%B3%E6%9C%AA%E4%BE%86+Psi+Ver.+L+size%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_16",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i2.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L_m.webp",
+                    "https://i3.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L_m.webp",
+                    "https://i3.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L1_m.webp",
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L3_m.webp",
+                    "https://i1.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1773389276/goodsimg/0015/040/749/15040749_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購27年2月★Max Factory 福音戰士 AAA Wunder(組裝 PLAMAX 電玩周邊 好微笑)",
+                "goodsSubName": "人類的希望，奇蹟之艦",
+                "marketPrice": "$2,150",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,150",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,900",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,900",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "1",
+                "goodsCode": "15040749",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15040749",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_17"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img2.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_17-15040749-1782558803768",
+                        "goodsCode": "15040749",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC27%E5%B9%B42%E6%9C%88%E2%98%85Max+Factory+%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB+AAA+Wunder%28%E7%B5%84%E8%A3%9D+PLAMAX+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E5%A5%BD%E5%BE%AE%E7%AC%91%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_17",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i4.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L_m.webp",
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L3_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_OR_m.webp",
+                    "https://i4.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L_m.webp",
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L2_m.webp",
+                    "https://i3.momoshop.com.tw/1778049716/goodsimg/0015/227/206/15227206_L3_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購11月暫定★好微笑 女神異聞錄5 Queen L Size(POP UP PARADE 電玩周邊)",
+                "goodsSubName": "一粒灰塵都不會留下",
+                "marketPrice": "$2,100",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "2,100",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,830",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,830",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "15227206",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15227206",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_18"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img2.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_18-15227206-1782558803768",
+                        "goodsCode": "15227206",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC11%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E5%A5%B3%E7%A5%9E%E7%95%B0%E8%81%9E%E9%8C%845+Queen+L+Size%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_18",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            },
+            {
+                "imgUrl": "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_OL_m.webp",
+                "imgUrlArray": [
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L_m.webp",
+                    "https://i2.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L5_m.webp"
+                ],
+                "imgTypeUrlArray": [
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_OR_m.webp",
+                    "https://i3.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L_m.webp",
+                    "https://i2.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L1_m.webp",
+                    "https://i2.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L2_m.webp",
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L3_m.webp",
+                    "https://i4.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L4_m.webp",
+                    "https://i1.momoshop.com.tw/1776152409/goodsimg/0015/146/820/15146820_L5_m.webp"
+                ],
+                "imgTagUrl": "",
+                "imgLongTagUrl": "",
+                "imgBottomTagUrl": "",
+                "goodsName": "【Good Smile】預購10月暫定★好微笑 涼宮春日的憂鬱 涼宮春日 L size(POP UP PARADE 電玩周邊 電玩周邊)",
+                "goodsSubName": "我對普通的人類沒有興趣",
+                "marketPrice": "$1,900",
+                "marketPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,900",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsPrice": "$1,650",
+                "goodsPriceModel": {
+                    "basePrice": {
+                        "goodsStatus": "",
+                        "price": "1,650",
+                        "sign": "$",
+                        "strPrice": ""
+                    }
+                },
+                "goodsStock": "2",
+                "goodsCode": "15146820",
+                "action": {
+                    "actionType": 11,
+                    "actionValue": "15146820",
+                    "useDefault": false,
+                    "extraValue": {
+                        "urlParameter": "mdiv=GoodsDetail_m-bt_r_sub&cc1=",
+                        "cateType": "",
+                        "isWebPage": "0",
+                        "categoryCode": "",
+                        "mdiv": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_19"
+                    }
+                },
+                "goodsTag": [
+                    {
+                        "imgUrl": "https://img3.momoshop.com.tw/ecm/img/cmm/goodsdetail/PreOrder_16px.png?t=20231113001",
+                        "bgColor": "#FF960A",
+                        "textColor": "#FFFFFF",
+                        "content": "預"
+                    }
+                ],
+                "isLimitBuyGoods": false,
+                "blockItem": {
+                    "itemType": "imgGoods",
+                    "snapshotId": "xgRecomd-bt_r_sub-gdhotrecom-B",
+                    "itemAttrs": {
+                        "itemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_19-15146820-1782558803768",
+                        "goodsCode": "15146820",
+                        "goodsName": "%E3%80%90Good+Smile%E3%80%91%E9%A0%90%E8%B3%BC10%E6%9C%88%E6%9A%AB%E5%AE%9A%E2%98%85%E5%A5%BD%E5%BE%AE%E7%AC%91+%E6%B6%BC%E5%AE%AE%E6%98%A5%E6%97%A5%E7%9A%84%E6%86%82%E9%AC%B1+%E6%B6%BC%E5%AE%AE%E6%98%A5%E6%97%A5+L+size%28POP+UP+PARADE+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A+%E9%9B%BB%E7%8E%A9%E5%91%A8%E9%82%8A%29",
+                        "url": "",
+                        "methodName": "{\"recallChannel\":\"EMBEDDING_GOODS\"}"
+                    },
+                    "blockItemId": "GoodsDetail_m-bt_r_sub_01-bt_r_sub_01_19",
+                    "adAttrs": {
+                        "adRequestId": "",
+                        "adCampaignId": "",
+                        "adCreativeId": ""
+                    }
+                }
+            }
+        ],
+        "recomd_id": "xg-prod-morecprod-00034-frj_1782558803_944013964",
+        "blockName": "%E7%86%B1%E9%96%80%E6%8E%A8%E8%96%A6",
+        "blockTypeId": "bt_r_sub",
+        "blockTypeName": "%E7%86%B1%E9%96%80%E6%8E%A8%E8%96%A6"
+    },
+    "rtnMsg": "success",
+    "rtnCode": 200
+}
