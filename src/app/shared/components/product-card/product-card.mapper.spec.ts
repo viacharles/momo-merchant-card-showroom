@@ -82,6 +82,7 @@ describe('mapMomoGoodsToProductCard', () => {
       price: '$799',
       originalPrice: '$999',
       stock: '5',
+      state: 'preorder',
       tags: [
         {
           label: '預',

@@ -1,0 +1,47 @@
+:host {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: var(--space-6);
+  background: rgba(25, 17, 14, 0.72);
+  backdrop-filter: blur(10px);
+}
+
+.lightbox__dialog {
+  position: relative;
+  width: min(100%, 920px);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #120d0b;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  z-index: 2;
+  min-height: 38px;
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  cursor: pointer;
+}
+
+.lightbox__video,
+.lightbox__image {
+  width: 100%;
+  max-height: min(78dvh, 720px);
+  display: block;
+  object-fit: contain;
+  background: #120d0b;
+}

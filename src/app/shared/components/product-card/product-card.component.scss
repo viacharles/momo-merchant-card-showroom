@@ -19,6 +19,13 @@
   box-shadow: var(--shadow-card-hover);
 }
 
+.product-card::before {
+  content: '';
+  display: block;
+  height: 4px;
+  background: transparent;
+}
+
 .image-frame {
   position: relative;
   aspect-ratio: 1 / 1;
@@ -71,7 +78,13 @@
 
 .variant-label {
   margin: 0 0 var(--space-3);
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
   color: var(--color-accent-tertiary);
+  background: rgba(177, 84, 44, 0.1);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -151,7 +164,7 @@ h3 {
   color: var(--color-ink-tertiary);
 }
 
-.product-card--recommendation .image-frame {
+.product-card--default .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
     linear-gradient(
@@ -161,7 +174,11 @@ h3 {
     );
 }
 
-.product-card--search .image-frame {
+.product-card--default::before {
+  background: linear-gradient(90deg, #ffb183, #ffd8c2);
+}
+
+.product-card--preorder .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
     linear-gradient(
@@ -171,7 +188,18 @@ h3 {
     );
 }
 
-.product-card--flash .image-frame {
+.product-card--preorder {
+  border-color: rgba(15, 94, 168, 0.24);
+  box-shadow:
+    0 18px 40px rgba(67, 29, 16, 0.08),
+    0 0 0 1px rgba(15, 94, 168, 0.08);
+}
+
+.product-card--preorder::before {
+  background: linear-gradient(90deg, #79bfff, #0f5ea8);
+}
+
+.product-card--limited-stock .image-frame {
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.82), transparent 45%),
     linear-gradient(
@@ -181,12 +209,74 @@ h3 {
     );
 }
 
-.product-card--flash .price {
+.product-card--limited-stock {
+  border-color: rgba(185, 28, 28, 0.22);
+  box-shadow:
+    0 18px 40px rgba(67, 29, 16, 0.08),
+    0 0 0 1px rgba(185, 28, 28, 0.06);
+}
+
+.product-card--limited-stock::before {
+  background: linear-gradient(90deg, #ff9b9b, #b91c1c);
+}
+
+.product-card--limited-stock .price {
   color: var(--color-flash-accent);
 }
 
-.product-card--search .price {
+.product-card--preorder .price {
   color: var(--color-search-accent);
+}
+
+.product-card--limited-buy .image-frame {
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
+    linear-gradient(180deg, #fff8e8, #ffd9a8);
+}
+
+.product-card--limited-buy {
+  border-color: rgba(178, 106, 0, 0.24);
+  box-shadow:
+    0 18px 40px rgba(67, 29, 16, 0.08),
+    0 0 0 1px rgba(178, 106, 0, 0.08);
+}
+
+.product-card--limited-buy::before {
+  background: linear-gradient(90deg, #ffd36a, #b26a00);
+}
+
+.product-card--limited-buy .price {
+  color: #b26a00;
+}
+
+.product-card--preorder .variant-label {
+  color: #0f5ea8;
+  background: rgba(15, 94, 168, 0.1);
+}
+
+.product-card--limited-stock .variant-label {
+  color: #b91c1c;
+  background: rgba(185, 28, 28, 0.1);
+}
+
+.product-card--limited-buy .variant-label {
+  color: #b26a00;
+  background: rgba(178, 106, 0, 0.12);
+}
+
+.product-card--preorder .stock-pill {
+  background: rgba(15, 94, 168, 0.1);
+  color: #0f5ea8;
+}
+
+.product-card--limited-stock .stock-pill {
+  background: rgba(185, 28, 28, 0.1);
+  color: #b91c1c;
+}
+
+.product-card--limited-buy .stock-pill {
+  background: rgba(178, 106, 0, 0.12);
+  color: #b26a00;
 }
 
 .product-card--price-emphasis .price {

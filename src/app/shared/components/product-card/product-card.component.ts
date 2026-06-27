@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, computed, input } from '@angular/co
 import { CommonModule } from '@angular/common';
 
 import {
-  CardVariant,
   type ProductCard,
   type ProductCardSettings,
+  type ProductCardState,
 } from './product-card.model';
 
 const DEFAULT_SETTINGS: ProductCardSettings = {
@@ -24,16 +24,17 @@ const DEFAULT_SETTINGS: ProductCardSettings = {
 })
 export class ProductCardComponent {
   readonly card = input.required<ProductCard>();
-  readonly variant = input<CardVariant>(CardVariant.Recommendation);
+  readonly state = input<ProductCardState>('default');
   readonly settings = input<ProductCardSettings>(DEFAULT_SETTINGS);
 
   protected readonly cardClass = computed(() => {
-    const variant = this.variant();
+    const state = this.state();
 
     return {
-      'product-card--recommendation': variant === CardVariant.Recommendation,
-      'product-card--search': variant === CardVariant.SearchResult,
-      'product-card--flash': variant === CardVariant.FlashSale,
+      'product-card--default': state === 'default',
+      'product-card--preorder': state === 'preorder',
+      'product-card--limited-stock': state === 'limitedStock',
+      'product-card--limited-buy': state === 'limitedBuy',
       'product-card--price-emphasis': this.settings().emphasizePrice,
     };
   });
@@ -46,5 +47,18 @@ export class ProductCardComponent {
     }
 
     return `庫存 ${stock}`;
+  });
+
+  protected readonly stateLabel = computed(() => {
+    switch (this.state()) {
+      case 'preorder':
+        return 'Preorder';
+      case 'limitedStock':
+        return 'Limited Stock';
+      case 'limitedBuy':
+        return 'Limited Buy';
+      default:
+        return 'Default';
+    }
   });
 }

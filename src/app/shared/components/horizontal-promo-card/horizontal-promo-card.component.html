@@ -1,0 +1,56 @@
+<article class="promo-card">
+  <header class="promo-card__header">
+    <h3>{{ card().sectionTitle }}</h3>
+  </header>
+
+  <div class="promo-card__shell">
+    <div
+      class="promo-card__media"
+      (pointerdown)="onPointerDown($event)"
+      (pointerup)="onPointerUp($event)"
+    >
+      <div
+        class="promo-card__track"
+        [style.transform]="'translateX(-' + activeIndex() * 100 + '%)'"
+      >
+        @for (media of card().mediaGallery; track media.src) {
+          <figure class="promo-card__slide">
+            <img [src]="media.poster ?? media.src" [alt]="media.alt" loading="lazy" />
+            @if (media.type === 'video') {
+              <button type="button" class="promo-card__play" (click)="openMedia(media)">
+                ▶
+              </button>
+            }
+          </figure>
+        }
+      </div>
+
+      <div class="promo-card__dots">
+        @for (media of card().mediaGallery; track media.src; let index = $index) {
+          <button
+            type="button"
+            class="promo-card__dot"
+            [class.promo-card__dot--active]="activeIndex() === index"
+            (click)="setActiveIndex(index)"
+          ></button>
+        }
+      </div>
+    </div>
+
+    <div class="promo-card__content">
+      <p class="promo-card__accent">{{ card().accentLabel }}</p>
+      <h4>{{ card().title }}</h4>
+      <p class="promo-card__subtitle">{{ card().subtitle }}</p>
+
+      <div class="promo-card__meta">
+        @if (card().badge) {
+          <span class="promo-card__badge">{{ card().badge }}</span>
+        }
+        <strong>{{ card().price }}</strong>
+        @if (card().originalPrice) {
+          <span class="promo-card__original">{{ card().originalPrice }}</span>
+        }
+      </div>
+    </div>
+  </div>
+</article>

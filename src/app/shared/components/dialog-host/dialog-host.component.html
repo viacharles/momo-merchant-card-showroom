@@ -1,0 +1,3 @@
+@if (activeDialog(); as dialog) {
+  <ng-container *ngComponentOutlet="dialog.component; injector: dialogInjector()" />
+}

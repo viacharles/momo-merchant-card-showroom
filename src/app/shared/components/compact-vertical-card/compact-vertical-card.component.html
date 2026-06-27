@@ -1,0 +1,34 @@
+<article class="compact-card">
+  <div class="compact-card__media">
+    <img [src]="card().media.poster ?? card().media.src" [alt]="card().media.alt" loading="lazy" />
+
+    @if (card().media.type === 'video') {
+      <button type="button" class="compact-card__play" (click)="openMedia(card().media)">
+        ▶
+      </button>
+    }
+  </div>
+
+  <div class="compact-card__body">
+    <p class="compact-card__promo">{{ card().promoText }}</p>
+    <h3>{{ card().title }}</h3>
+
+    <div class="compact-card__price-row">
+      <strong>{{ card().price }}</strong>
+      @if (card().originalPrice) {
+        <span>{{ card().originalPrice }}</span>
+      }
+    </div>
+
+    <div class="compact-card__meta">
+      <div class="compact-card__badges">
+        @for (badge of card().badges; track badge) {
+          <span>{{ badge }}</span>
+        }
+      </div>
+      <p>({{ card().ratingCount.toLocaleString() }})</p>
+    </div>
+
+    <p class="compact-card__sales">{{ card().salesLabel }}</p>
+  </div>
+</article>

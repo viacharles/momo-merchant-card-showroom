@@ -83,14 +83,14 @@
   </head>
   <body>
     <momo-product-card
-      data-variant="Recommendation"
-      data-card='card'
+      data-state="default"
+      data-card='{"id":"13935648","imageUrl":"https://i3.momoshop.com.tw/1745310638/goodsimg/0013/935/648/13935648_OL_m.webp","title":"【Good Smile】Max Factory 福音戰士 綾波零 長髮(組裝PLAMAX 電玩周邊 好微笑)","subtitle":"你不會死的……。我會保護你的。","price":"$1,660","originalPrice":"$1,790","stock":"1","tags":[],"state":"default"}'
     ></momo-product-card>
 
     <script>
       function bootstrapSample() {
         const element = document.querySelector('momo-product-card');
-        const { variant = 'Recommendation', card = '{}' } = element.dataset;
+        const { state = 'default', card = '{}' } = element.dataset;
         const productCard = JSON.parse(card);
 
         element.outerHTML = `
@@ -99,7 +99,7 @@
             <img src="${productCard.imageUrl ?? ''}" alt="${productCard.title ?? ''}">
           </div>
           <div class="card__content">
-            <p class="card__variant">${variant}</p>
+            <p class="card__variant">${state}</p>
             <h1 class="card__title">${productCard.title ?? ''}</h1>
             <p class="card__subtitle">${productCard.subtitle ?? ''}</p>
             <div class="card__price-row">

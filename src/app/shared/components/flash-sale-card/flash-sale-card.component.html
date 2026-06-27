@@ -1,0 +1,41 @@
+<article class="flash-card">
+  <div class="flash-card__media">
+    @if (card().badgeText) {
+      <span class="flash-card__badge">{{ card().badgeText }}</span>
+    }
+
+    <img [src]="card().media.poster ?? card().media.src" [alt]="card().media.alt" loading="lazy" />
+
+    @if (card().media.type === 'video') {
+      <button type="button" class="flash-card__play" (click)="openMedia(card().media)">
+        ▶
+      </button>
+    }
+  </div>
+
+  <div class="flash-card__body">
+    <p class="flash-card__headline">{{ card().promoHeadline }}</p>
+    <h3>{{ card().title }}</h3>
+
+    <div class="flash-card__price">
+      <span>限搶價</span>
+      <strong>{{ card().salePrice }}</strong>
+    </div>
+
+    @if (card().originalPrice) {
+      <p class="flash-card__original">{{ card().originalPrice }}</p>
+    }
+
+    <div class="flash-card__footer">
+      <span class="flash-card__remaining">最後{{ card().remainingSets }}組</span>
+      <button type="button" class="flash-card__cta">{{ card().ctaLabel }}</button>
+    </div>
+
+    <div class="flash-card__countdown">
+      <span>倒數</span>
+      @for (part of countdown(); track part) {
+        <strong>{{ part }}</strong>
+      }
+    </div>
+  </div>
+</article>

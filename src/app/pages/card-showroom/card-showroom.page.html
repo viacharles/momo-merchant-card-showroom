@@ -1,103 +1,69 @@
 <section class="showroom-shell">
   <header class="hero">
     <div>
-      <h1>momo Product Card Architecture Demo</h1>
+      <p class="eyebrow">momo Card Analysis</p>
+      <h1>Three Real-World Product Card Types</h1>
+      <p class="hero-copy">
+        分析首頁常見商品卡後，整理成 Compact Vertical Card、Horizontal Promo Card、
+        Flash Sale Card 三種實作，並補上影片彈窗與拖曳輪播互動。
+      </p>
     </div>
 
     <div class="hero-meta">
-      <span>{{ cards().length }} cards loaded</span>
-      <span>Persistence: localStorage</span>
-      <span>Mode: standalone + signals</span>
-      <span>Preview: variant-driven card</span>
+      <span>3 card types</span>
+      <span>video lightbox</span>
+      <span>drag carousel</span>
+      <span>standalone + signals</span>
     </div>
   </header>
 
-  @if (isLoading()) {
-    <div class="status-card">Loading showroom data...</div>
-  } @else if (errorMessage()) {
-    <div class="status-card status-card--error">
-      Failed to load cards: {{ errorMessage() }}
-    </div>
-  } @else {
-    <div class="showroom-grid">
-      <aside class="panel">
-        <div class="panel-section">
-          <h2>Card Selector</h2>
-
-          <div class="card-list">
-            @for (card of cards(); track trackByCardId($index, card)) {
-              <button
-                type="button"
-                class="card-list-item"
-                [class.card-list-item--active]="selectedCardId() === card.id"
-                (click)="selectCard(card.id)"
-              >
-                <img [src]="card.imageUrl" [alt]="card.title" loading="lazy" />
-
-                <div>
-                  <strong>{{ card.title }}</strong>
-                  <span>{{ card.price }}</span>
-                </div>
-              </button>
-            }
-          </div>
+  <div class="section-stack">
+    <section class="section-card">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Type 1</p>
+          <h2>Compact Vertical Card</h2>
         </div>
+        <p>適用於降價好貨、小型商品列表。</p>
+      </div>
 
-        <div class="panel-section">
-          <h2>Variant</h2>
+      <div class="compact-grid">
+        @for (card of compactVerticalCards; track card.id) {
+          <app-compact-vertical-card [card]="card" />
+        }
+      </div>
+    </section>
 
-          <label class="select-field">
-            <span>Display variant</span>
-            <select
-              [value]="selectedVariant()"
-              (change)="updateVariant(($any($event.target)).value)"
-            >
-              @for (variant of cardVariants; track variant) {
-                <option [value]="variant">{{ variant }}</option>
-              }
-            </select>
-          </label>
+    <section class="section-card">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Type 2</p>
+          <h2>Horizontal Promo Card</h2>
         </div>
+        <p>適用於 mo店+、今日暢銷榜等橫向促購版型，可拖曳切換圖組。</p>
+      </div>
 
-      </aside>
+      <div class="promo-stack">
+        @for (card of horizontalPromoCards; track card.id) {
+          <app-horizontal-promo-card [card]="card" />
+        }
+      </div>
+    </section>
 
-      <main class="preview-stack">
-        <section class="preview-card">
-          <div class="preview-header">
-            <div>
-              <h2>{{ selectedVariant() }}</h2>
-            </div>
-          </div>
+    <section class="section-card">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Type 3</p>
+          <h2>Flash Sale Card</h2>
+        </div>
+        <p>適用於限時搶購卡，包含倒數、限搶價、剩餘組數與搶購按鈕。</p>
+      </div>
 
-          @if (selectedCard(); as card) {
-            <div class="preview-layout">
-              <app-product-card
-                [card]="card"
-                [variant]="selectedVariant()"
-                [settings]="settings()"
-              />
-
-              <app-product-card-cluster
-                [mainCard]="card"
-                [companionCards]="companionCards()"
-                [variant]="selectedVariant()"
-                [settings]="settings()"
-              />
-            </div>
-          }
-        </section>
-
-        <section class="preview-card">
-          <div class="preview-header">
-            <div>
-              <p class="eyebrow">Embedding Sample</p>
-              <h2>sample-product-card.html</h2>
-            </div>
-          </div>
-
-          <pre>{{ sampleSnippet() }}</pre>
-        </section>
-      </main>
-    </div>
-  }
+      <div class="flash-grid">
+        @for (card of flashSaleCards; track card.id) {
+          <app-flash-sale-card [card]="card" />
+        }
+      </div>
+    </section>
+  </div>
 </section>

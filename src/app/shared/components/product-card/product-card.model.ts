@@ -1,8 +1,8 @@
-export enum CardVariant {
-  Recommendation = 'Recommendation',
-  SearchResult = 'SearchResult',
-  FlashSale = 'FlashSale',
-}
+export type ProductCardState =
+  | 'default'
+  | 'preorder'
+  | 'limitedStock'
+  | 'limitedBuy';
 
 export interface MomoApiResponse {
   rtnData: MomoRtnData;
@@ -90,6 +90,7 @@ export interface ProductCard {
   originalPrice?: string;
   stock?: string;
   tags: ProductTag[];
+  state: ProductCardState;
 }
 
 export interface ProductTag {

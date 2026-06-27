@@ -1,4 +1,8 @@
-import { type MomoGoodsInfo, type ProductCard } from './product-card.model';
+import {
+  type MomoGoodsInfo,
+  type ProductCard,
+  type ProductCardState,
+} from './product-card.model';
 
 export function mapMomoGoodsToProductCard(item: MomoGoodsInfo): ProductCard {
   return {
@@ -9,6 +13,7 @@ export function mapMomoGoodsToProductCard(item: MomoGoodsInfo): ProductCard {
     price: item.goodsPrice,
     originalPrice: item.marketPrice,
     stock: item.goodsStock,
+    state: deriveProductCardState(item),
     tags: item.goodsTag.map((tag) => ({
       label: tag.content,
       bgColor: tag.bgColor,
@@ -16,4 +21,20 @@ export function mapMomoGoodsToProductCard(item: MomoGoodsInfo): ProductCard {
       iconUrl: tag.imgUrl,
     })),
   };
+}
+
+function deriveProductCardState(item: MomoGoodsInfo): ProductCardState {
+  if (item.isLimitBuyGoods) {
+    return 'limitedBuy';
+  }
+
+  if (item.goodsTag.some((tag) => tag.content === '預')) {
+    return 'preorder';
+  }
+
+  if (Number(item.goodsStock) <= 1) {
+    return 'limitedStock';
+  }
+
+  return 'default';
 }

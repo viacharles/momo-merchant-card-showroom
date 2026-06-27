@@ -5,7 +5,7 @@
     </div>
 
     <div class="cluster-main__content">
-      <p class="cluster-main__variant">{{ variant() }}</p>
+      <p class="cluster-main__variant">{{ stateLabel() }}</p>
       <h3>{{ mainCard().title }}</h3>
 
       @if (settings().showSubtitle && mainCard().subtitle) {
